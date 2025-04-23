@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import image from "../assets/image/orise interior black copy.jpg";
+
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <>
       <div className="header">
@@ -42,7 +48,7 @@ const Navbar = () => {
               >
                 <h1
                   data-wf--button--variant="dark"
-                  className="heading h1 no-margin "
+                  className="heading h3 no-margin "
                 >
                   Orise Interior
                 </h1>
@@ -186,7 +192,86 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
+          {isOpen && (
+            <div className="Navbar">
+              <div className="mobile-menu-wrapper">
+                <div className="mobile-menu-navigation">
+                  <div className="grid">
+                    <div className="left-side">
+                      <a
+                        href="#projects"
+                        className="mobile-menu-link heading h2 w-inline-block"
+                      >
+                        <div className="text-block">Projects</div>
+                      </a>
+                      <a
+                        href="#services"
+                        className="mobile-menu-link heading h2 w-inline-block"
+                      >
+                        <div>Services</div>
+                      </a>
+                      <a
+                        href="#about"
+                        className="mobile-menu-link heading h2 w-inline-block"
+                      >
+                        <div>About</div>
+                      </a>
+                      <a
+                        href="#pricing"
+                        className="mobile-menu-link heading h2 w-inline-block"
+                      >
+                        <div>Pricing</div>
+                      </a>
+                    </div>
+                    <div className="right-side">
+                      <a
+                        href="#faq"
+                        className="mobile-menu-link heading h2 w-inline-block"
+                      >
+                        <div>FAQ</div>
+                      </a>
+                      <a
+                        href="#testimonials"
+                        className="mobile-menu-link heading h2 w-inline-block"
+                      >
+                        <div>Testimonials</div>
+                      </a>
+                      <a
+                        href="#clients"
+                        className="mobile-menu-link heading h2 w-inline-block"
+                      >
+                        <div>Clients</div>
+                      </a>
+                      <div className="contact-button-wrap">
+                        <a
+                          href="#"
+                          className="button w-variant-92cfbcfe-75be-fb31-402c-ab8cb15294a3 w-inline-block"
+                        >
+                          <div className="arrow-btn-text w-variant-92cfbcfe-75be-fb31-402c-ab8cb15294a3">
+                            Contact
+                          </div>
+                          <button
+                            onClick={toggleMenu}
+                            className="mobile-menu-navigation"
+                          >
+                            <div className="arrow-wrap right w-variant-92cfbcfe-75be-fb31-402c-ab8cb15294a3">
+                              <img
+                                alt=""
+                                src="https://cdn.prod.website-files.com/5e22878bdaefb83255480164/5e22878bdaefb880d6480186_chevron%20right.svg"
+                                className="arrow-icon inverted"
+                              />
+                              <div className="arrow-extension right w-variant-92cfbcfe-75be-fb31-402c-ab8cb15294a3"></div>
+                            </div>
+                          </button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )} */}
         </div>
       </div>
     </>
