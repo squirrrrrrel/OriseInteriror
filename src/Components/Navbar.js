@@ -40,7 +40,12 @@ const Navbar = () => {
                 id="w-node-d4ec7527-9709-7b09-9f7e-ce2abb23b8eb-52d52492"
                 className="navigation-middle"
               >
-                <p data-wf--button--variant="dark">Orise Interior</p>
+                <h1
+                  data-wf--button--variant="dark"
+                  className="heading h1 no-margin "
+                >
+                  Orise Interior
+                </h1>
               </div>
               <div
                 id="w-node-_677ce8dc-20c3-795f-1d3a-dd0f52d52499-52d52492"
@@ -108,7 +113,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="mobile-menu">
+          {/* <div className="mobile-menu">
             <div className="mobile-menu-wrapper">
               <div className="mobile-menu-navigation">
                 <div className="grid">
@@ -181,7 +186,7 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
