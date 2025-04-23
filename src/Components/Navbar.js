@@ -18,25 +18,25 @@ const Navbar = () => {
                 className="navigation-left"
               >
                 <a
-                  href="#projects"
+                  href="/#projects"
                   className="navigation-link no-margin w-inline-block"
                 >
                   <div className="link-text cc-1">Projects</div>
                 </a>
                 <a
-                  href="#services"
+                  href="/#services"
                   className="navigation-link no-margin w-inline-block"
                 >
                   <div className="link-text cc-1">Services</div>
                 </a>
                 <a
-                  href="#about"
+                  href="/#about"
                   className="navigation-link no-margin w-inline-block"
                 >
                   <div className="link-text cc-1">About</div>
                 </a>
                 <a
-                  href="#pricing"
+                  href="/#pricing"
                   className="navigation-link no-margin w-inline-block"
                 >
                   <div className="link-text cc-1">Pricing</div>
@@ -53,25 +53,22 @@ const Navbar = () => {
                   Orise Interior
                 </h1>
               </div>
-              <div
-                id="w-node-_677ce8dc-20c3-795f-1d3a-dd0f52d52499-52d52492"
-                className="navigation-right"
-              >
+              <div className="navigation-right">
                 <nav className="navigation-menu">
                   <a
-                    href="#faq"
+                    href="/#faq"
                     className="navigation-link no-margin w-inline-block"
                   >
                     <div className="link-text cc-1">FAQ</div>
                   </a>
                   <a
-                    href="#testimonials"
+                    href="/#testimonials"
                     className="navigation-link no-margin w-inline-block"
                   >
                     <div className="link-text cc-1">Testimonials</div>
                   </a>
                   <a
-                    href="#clients"
+                    href="/#clients"
                     className="navigation-link no-margin w-inline-block"
                   >
                     <div className="link-text cc-1">Clients</div>

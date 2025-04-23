@@ -10,20 +10,42 @@ import Price from "./Components/Price";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Services from "./Components/Services";
+import Haven from "./Components/Haven";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+      <>
+        <Navbar />
+        <Hero />
+        <Projects />
+        <Services />
+        <About />
+        <Faq />
+        <Testimonials />
+        <ContactSection />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "/projects/Haven",
+    element: (
+      <>
+        <Navbar />
+        <Haven />
+        <ContactSection />
+        <Footer />
+      </>
+    ),
+  },
+]);
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Projects />
-      <Services />
-      <About />
-      {/* <Price /> */}
-      <Faq />
-      <Testimonials />
-      <ContactSection />
-      <Footer />
+      <RouterProvider router={router} />
     </>
   );
 }

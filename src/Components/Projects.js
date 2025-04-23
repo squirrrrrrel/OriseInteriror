@@ -224,7 +224,7 @@ const Projects = () => {
                   >
                     <div className="project-image-wrap">
                       <a
-                        href="/project/project-alpha"
+                        href="/projects/haven"
                         className="project-link w-inline-block"
                       >
                         <img
@@ -241,7 +241,7 @@ const Projects = () => {
                     <div className="spacer _2r"></div>
                     <div className="project-headline-wrap">
                       <a
-                        href="/project/project-alpha"
+                        href="/projects/haven"
                         className="project-link-wrap w-inline-block"
                       >
                         <h3 className="heading h3 no-margin">
