@@ -50,7 +50,6 @@ const Projects = () => {
                         <img
                           src="https://cdn.prod.website-files.com/6731d35dde5b1ce8d43c1cb4/6733382ac0431e0bcba76eb9_Modern%20Architectural%20Structure%20at%20Dusk.webp"
                           loading="lazy"
-                          data-w-id="5df52eea-fe61-59a5-a8ad-798673ecae7c"
                           alt=""
                           sizes="(max-width: 479px) 94vw, (max-width: 767px) 52vw, (max-width: 991px) 45vw, 79vw"
                           srcset="https://cdn.prod.website-files.com/6731d35dde5b1ce8d43c1cb4/6733382ac0431e0bcba76eb9_Modern%20Architectural%20Structure%20at%20Dusk-p-500.webp 500w, https://cdn.prod.website-files.com/6731d35dde5b1ce8d43c1cb4/6733382ac0431e0bcba76eb9_Modern%20Architectural%20Structure%20at%20Dusk-p-800.webp 800w, https://cdn.prod.website-files.com/6731d35dde5b1ce8d43c1cb4/6733382ac0431e0bcba76eb9_Modern%20Architectural%20Structure%20at%20Dusk-p-1080.webp 1080w, https://cdn.prod.website-files.com/6731d35dde5b1ce8d43c1cb4/6733382ac0431e0bcba76eb9_Modern%20Architectural%20Structure%20at%20Dusk-p-1600.webp 1600w, https://cdn.prod.website-files.com/6731d35dde5b1ce8d43c1cb4/6733382ac0431e0bcba76eb9_Modern%20Architectural%20Structure%20at%20Dusk-p-2000.webp 2000w, https://cdn.prod.website-files.com/6731d35dde5b1ce8d43c1cb4/6733382ac0431e0bcba76eb9_Modern%20Architectural%20Structure%20at%20Dusk.webp 2399w"
@@ -224,7 +223,7 @@ const Projects = () => {
                   >
                     <div className="project-image-wrap">
                       <a
-                        href="/projects/haven"
+                        href="projects/haven"
                         className="project-link w-inline-block"
                       >
                         <img
@@ -241,7 +240,7 @@ const Projects = () => {
                     <div className="spacer _2r"></div>
                     <div className="project-headline-wrap">
                       <a
-                        href="/projects/haven"
+                        href="projects/haven"
                         className="project-link-wrap w-inline-block"
                       >
                         <h3 className="heading h3 no-margin">

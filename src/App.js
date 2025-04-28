@@ -12,7 +12,6 @@ import Projects from "./Components/Projects";
 import Services from "./Components/Services";
 import Haven from "./Components/Haven";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
 const router = createBrowserRouter([
   {
     path: "/",

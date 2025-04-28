@@ -1,11 +1,14 @@
 import React from "react";
+import Marquee from "react-fast-marquee";
+import img1 from "../assets/image/673c93506d1c39f1e358562f_placeholder-3.jpg";
+import "../assets/ContactSection.css";
 
 const ContactSection = () => {
   return (
     <>
-      <div id="clients" className="section past-clients-section">
+      <div id="clients">
         <div className="container wide">
-          <div className="eyebrow-wrap">
+          <div>
             <div
               data-wf--eyebrow--variant="gray"
               className="eyebrow w-variant-4fca7595-da52-a65e-31bc-5185e76f6e93"
@@ -20,87 +23,25 @@ const ContactSection = () => {
             </div>
           </div>
           <div className="spacer _4r"></div>
-          <div className="logos-wrap">
-            <div className="logos-grid-wrap">
-              <div className="w-layout-grid _6-column-grid">
-                <img
-                  loading="lazy"
-                  src="https://cdn.prod.website-files.com/672c8290592e2a4498864818/673c91b1615643c4be927bce_placeholder-1.svg"
-                  alt=""
-                  className="placeholder-logo"
-                />
-                <img
-                  loading="lazy"
-                  src="https://cdn.prod.website-files.com/672c8290592e2a4498864818/673c926b8c93dbf6b9496c48_placeholder-2.svg"
-                  alt=""
-                  className="placeholder-logo"
-                />
-                <img
-                  id="w-node-_2022867b-cedd-c1bf-a73d-8c0014b2a226-98864819"
-                  loading="lazy"
-                  alt=""
-                  src="https://cdn.prod.website-files.com/672c8290592e2a4498864818/673c93506d1c39f1e358562f_placeholder-3.svg"
-                  className="placeholder-logo"
-                />
-                <img
-                  loading="lazy"
-                  src="https://cdn.prod.website-files.com/672c8290592e2a4498864818/673c93582111b7b804409386_placeholder-4.svg"
-                  alt=""
-                  className="placeholder-logo"
-                />
-                <img
-                  loading="lazy"
-                  src="https://cdn.prod.website-files.com/672c8290592e2a4498864818/673c93676be6e8e2e1a1f2f0_placeholder-5.svg"
-                  alt=""
-                  className="placeholder-logo"
-                />
-                <img
-                  loading="lazy"
-                  src="https://cdn.prod.website-files.com/672c8290592e2a4498864818/673c9373cd5bbf2381bc12b8_placeholder-6.svg"
-                  alt=""
-                  className="placeholder-logo nexus"
-                />
+
+          <div className="dk">
+            <Marquee direction="left" speed={100}>
+              <div>
+                <img src={img1} />
               </div>
-              <div className="w-layout-grid _6-column-grid _2nd">
-                <img
-                  loading="lazy"
-                  src="https://cdn.prod.website-files.com/672c8290592e2a4498864818/673c91b1615643c4be927bce_placeholder-1.svg"
-                  alt=""
-                  className="placeholder-logo"
-                />
-                <img
-                  loading="lazy"
-                  src="https://cdn.prod.website-files.com/672c8290592e2a4498864818/673c926b8c93dbf6b9496c48_placeholder-2.svg"
-                  alt=""
-                  className="placeholder-logo"
-                />
-                <img
-                  id="w-node-_1b4ce169-f2ca-e517-5b8b-edf7cdca7b3a-98864819"
-                  loading="lazy"
-                  alt=""
-                  src="https://cdn.prod.website-files.com/672c8290592e2a4498864818/673c93506d1c39f1e358562f_placeholder-3.svg"
-                  className="placeholder-logo"
-                />
-                <img
-                  loading="lazy"
-                  src="https://cdn.prod.website-files.com/672c8290592e2a4498864818/673c93582111b7b804409386_placeholder-4.svg"
-                  alt=""
-                  className="placeholder-logo"
-                />
-                <img
-                  loading="lazy"
-                  src="https://cdn.prod.website-files.com/672c8290592e2a4498864818/673c93676be6e8e2e1a1f2f0_placeholder-5.svg"
-                  alt=""
-                  className="placeholder-logo"
-                />
-                <img
-                  loading="lazy"
-                  src="https://cdn.prod.website-files.com/672c8290592e2a4498864818/673c9373cd5bbf2381bc12b8_placeholder-6.svg"
-                  alt=""
-                  className="placeholder-logo nexus"
-                />
+              <div>
+                <img src={img1} />
               </div>
-            </div>
+              <div>
+                <img src={img1} />
+              </div>
+              <div>
+                <img src={img1} />
+              </div>
+              <div>
+                <img src={img1} />
+              </div>
+            </Marquee>
           </div>
         </div>
       </div>
