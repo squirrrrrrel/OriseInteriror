@@ -88,15 +88,7 @@ const ContactSection = () => {
                 data-w-id="1142de6c-3804-5717-493e-9bf38085499d"
                 className="contact-form w-form"
               >
-                <form
-                  id="email-form"
-                  name="email-form"
-                  data-name="Email Form"
-                  method="get"
-                  className="form-wrap"
-                  data-wf-page-id="672c8290592e2a4498864819"
-                  data-wf-element-id="1142de6c-3804-5717-493e-9bf38085499e"
-                >
+                <form id="email-form">
                   <label htmlFor="name-2" className="field-label light">
                     Name
                   </label>
