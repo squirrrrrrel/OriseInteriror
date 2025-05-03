@@ -267,7 +267,7 @@ const About = () => {
             </div>
             <div className="hidden w-slider-nav w-slider-nav-invert w-round"></div>
           </div>
-          <div className="spacer _2r"></div>
+          <div className="spacer _2r" id="open"></div>
           <div className="eyebrow-wrap">
             <div
               data-wf--eyebrow--variant="gray"

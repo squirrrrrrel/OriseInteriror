@@ -1,0 +1,10 @@
+.mobile-menu {
+  display: none;
+  /* or height:0, opacity:0, transform:translateY(-10px), etc. */
+  transition: all 1.3s ease;
+}
+
+.mobile-menu.is-open {
+  display: block;
+  /* or height:auto, opacity:1, transform:translateY(0), etc. */
+}

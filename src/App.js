@@ -6,7 +6,6 @@ import Footer from "./Components/Footer";
 import ContactSection from "./Components/ContactSection";
 import Testimonials from "./Components/Testimonials";
 import Faq from "./Components/Faq";
-import Price from "./Components/Price";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Services from "./Components/Services";
@@ -24,7 +23,7 @@ const router = createBrowserRouter([
         <About />
         <Faq />
         <Testimonials />
-        {/* <ContactSection /> */}
+        <ContactSection />
         <Footer />
       </>
     ),

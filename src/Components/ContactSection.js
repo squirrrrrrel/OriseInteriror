@@ -9,14 +9,11 @@ const ContactSection = () => {
       <div id="clients">
         <div className="container wide">
           <div>
-            <div
-              data-wf--eyebrow--variant="gray"
-              className="eyebrow w-variant-4fca7595-da52-a65e-31bc-5185e76f6e93"
-            >
+            <div className="eyebrow w-variant-4fca7595-da52-a65e-31bc-5185e76f6e93">
               <img
                 src="https://cdn.prod.website-files.com/672c8290592e2a4498864818/6731be9a3827701c853e3320_star-four-fill.svg"
                 loading="lazy"
-                alt=""
+                alt="error"
                 className="eyebrow-icon"
               />
               <div className="eyebrow-text">PAST CLIENTS</div>
@@ -24,42 +21,31 @@ const ContactSection = () => {
           </div>
           <div className="spacer _4r"></div>
 
-          <div className="dk">
-            <Marquee direction="left" speed={100}>
-              <div>
-                <img src={img1} />
-              </div>
-              <div>
-                <img src={img1} />
-              </div>
-              <div>
-                <img src={img1} />
-              </div>
-              <div>
-                <img src={img1} />
-              </div>
-              <div>
-                <img src={img1} />
-              </div>
+          <div className="container wide">
+            <Marquee direction="left" speed={100} className="dk">
+              <img src={img1} alt="" />
+              <img src={img1} alt="" />
+              <img src={img1} alt="" />
+              <img src={img1} alt="" />
+              <img src={img1} alt="" />
+              <img src={img1} alt="" />
+              <img src={img1} alt="" />
             </Marquee>
           </div>
         </div>
       </div>
-      <div data-wf--contact-section--variant="base" className="section">
-        <div id="contact" className="container wide gray">
+      <div className="section" id="contact">
+        <div className="container wide gray">
           <div className="spacer _4r"></div>
           <div className="container">
             <div className="w-layout-grid _1-2-grid extra-gap">
               <div className="contact-details-wrap">
-                <div
-                  data-w-id="1142de6c-3804-5717-493e-9bf380854995"
-                  className="eyebrow-wrap"
-                >
+                <div className="eyebrow-wrap">
                   <div data-wf--eyebrow--variant="base" className="eyebrow">
                     <img
                       src="https://cdn.prod.website-files.com/672c8290592e2a4498864818/6731be9a3827701c853e3320_star-four-fill.svg"
                       loading="lazy"
-                      alt=""
+                      alt="error"
                       className="eyebrow-icon"
                     />
                     <div className="eyebrow-text">CONTACT</div>
@@ -67,84 +53,42 @@ const ContactSection = () => {
                 </div>
                 <div className="text-box s">
                   <div className="overlay-hidden">
-                    <h1
-                      data-w-id="1142de6c-3804-5717-493e-9bf380854999"
-                      className="heading h2"
-                    >
+                    <h1 className="heading h2">
                       Ready to transform your space?
                     </h1>
                   </div>
                   <div className="spacer _1r"></div>
-                  <p
-                    data-w-id="1142de6c-3804-5717-493e-9bf38085499b"
-                    className="paragraph large"
-                  >
+                  <p className="paragraph large">
                     Whether you’re ready to start your design project or just
                     have a few questions, our team is here to help.{" "}
                   </p>
                 </div>
               </div>
-              <div
-                data-w-id="1142de6c-3804-5717-493e-9bf38085499d"
-                className="contact-form w-form"
-              >
-                <form id="email-form">
-                  <label htmlFor="name-2" className="field-label light">
-                    Name
-                  </label>
-                  <input
-                    className="form-text-field w-input"
-                    maxlength="256"
-                    name="name-2"
-                    data-name="Name 2"
-                    placeholder=""
-                    type="text"
-                    id="name-2"
-                  />
+              <div className="contact-form">
+                <form>
+                  <label className="field-label light">Name</label>
+                  <input className="form-text-field w-input" type="text" />
                   <label htmlFor="email-2" className="field-label light">
                     Email Address
                   </label>
                   <input
                     className="form-text-field w-input"
                     maxlength="256"
-                    name="email-2"
-                    data-name="Email 2"
-                    placeholder=""
                     type="email"
-                    id="email-2"
-                    required=""
                   />
-                  <label htmlFor="Message-2" className="field-label light">
-                    Message
-                  </label>
+                  <label className="field-label light">Message</label>
                   <input
                     className="form-text-field w-input"
                     maxlength="256"
-                    name="Message-2"
-                    data-name="Message 2"
-                    placeholder=""
                     type="text"
-                    id="Message-2"
-                    required=""
                   />
                   <div className="spacer _1r"></div>
                   <input
                     type="submit"
-                    data-wait="Please wait..."
                     className="button light w-button"
                     value="Submit"
                   />
                 </form>
-                <div className="success-message w-form-done">
-                  <div className="success-message">
-                    Thank you! Your submission has been received!
-                  </div>
-                </div>
-                <div className="error-message w-form-fail">
-                  <div>
-                    Oops! Something went wrong while submitting the form.
-                  </div>
-                </div>
               </div>
             </div>
           </div>
